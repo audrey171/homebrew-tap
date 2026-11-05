@@ -7,7 +7,7 @@ cask "cargo-paste" do
   desc "Five-pocket clipboard for text, images, and rich content"
   homepage "https://cargopaste.com/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Cargo Paste.app"
 
